@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- social media library -->
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
     <img src="assets/img/logo.png" alt="Global">
     <p>Trent Hois</p>
   </a>
-  <p class="device-notification--message">We recommend you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+  <p class="device-notification--message">It's recommended you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
 </div>
 
 <div class="perspective effect-rotate-left">
@@ -83,7 +84,7 @@
           <li class="l-section section">
             <div class="about">
               <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
+                <h2>I<br>believe in<br>passionate<br>people</h2>
                 <a href="#0">Career
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
@@ -236,27 +237,33 @@
             <div class="hire">
               <h2>Get in touch with me!</h2>
 
-              <form class="work-request">
-                <div class="work-request--options">
+              <form class="work-request" action="https://formsubmit.co/7df84c909c884277fc3c8ba4e3988f6c" method="POST"> <!-- easy endpoint for HTML form -->
+                <div class="work-request--options" style="display: block;text-align: center;margin-bottom: 75px;">
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="https://www.linkedin.com/in/trent-hoisington-662502240/" class="fa fa-linkedin"></a>
+                  <a href="https://github.com/thoisii" class="fa fa-github"></a>
                   
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" name="Name" type="text" spellcheck="false" required>
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" name="Email" type="email" spellcheck="false" required>
                     <label for="email">Email</label>
                   </div>
                 </div>
                 <div class="work-request--information">
 
-                  <textarea class="form-control" cols="100" rows="4" placeholder="Enter your message"></textarea>
+                  <textarea id="message" name="Message" class="form-control" cols="100" rows="4" placeholder="Enter your message" required></textarea>
 
                 </div>
                 <input type="submit" value="Send Request">
+
               </form>
+
+
             </div>            
           </li>
         </ul>
