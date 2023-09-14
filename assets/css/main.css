@@ -79,28 +79,29 @@ textarea{
     justify-content: center;
 }
 .skill-list{
-    display: inline-block;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 450px;
-    width: 800px;
+    height: 60%;
+    width: 70%;
     justify-content: center;
+    text-align:center;
 
     border: 1px grey;
     padding: 10px;
-    text-align:center;
     background-color: rgba(15,51,255,0.75);
-    box-shadow:0 0 30px 0 rgba(0,0,0,0.75)
+    box-shadow:0 0 30px 0 rgba(0,0,0,0.75);
 }
-.items{
-    float:left;
-    margin: 7px;
-    padding: 10px;
+@media (max-width: 768px) {.skill-list {width: 100%;}}/* change width based on screen size i.e. tablets*/
 
+.items{
+    vertical-align: top;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
     height: 94%;
-    width: 29%;
+    width: 28%;
 
     background-color: #0c0c0c;
     box-shadow:0 0 30px 0 rgba(0,0,0,0.75)
