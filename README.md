@@ -1,3 +1,6 @@
+# Portfolio Project Website
+A personal website developed to display my skills and connect my socials. Utilized and edited the HTML, CSS and JavaScript template provided by global as a foundation.
+
 # [Global: HTML5 website template](http://buckymaler.com/global)
 
 ### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
