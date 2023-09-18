@@ -1,5 +1,5 @@
 # Portfolio Project Website
-A personal website developed to display my skills and connect my socials. Utilized and edited the HTML, CSS and JavaScript template provided by global as a foundation.
+A personal website developed to display my talents, works, skills and socials. Project goals were to practice frontend development and create a useful functional personalized product. Utilized and adjusted HTML, CSS and JavaScript template provided by global as a foundation.
 
 # [Global: HTML5 website template](http://buckymaler.com/global)
 
